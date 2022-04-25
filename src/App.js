@@ -36,8 +36,8 @@ function App() {
     // eslint-disable-next-line
     let result = Function('return ' + input)();
     let numberedOutput = Number(result);
-    setOutput(numberedOutput)
-    setInput(numberedOutput)
+    setOutput(numberedOutput.toFixed(6))
+    setInput(numberedOutput.toFixed(6))
   } catch (err) {
     setOutput('Error!')
   }
