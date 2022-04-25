@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  
+}
+#root {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  font-family: cursive;
+}
+.main-sect {
+    margin: 10px auto 20px;
+    color: white;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .main-sect {
+    width: 500px;
+    height: 510px;
+  }
+  .table {
+    width: 420px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .main-sect {
+    width: 600px;
+    height: 600px;
+  }
+  .table {
+    width: 480px;
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .main-sect {
+    width: 500px;
+    height: 600px;
+  }
+  .table {
+    width: 420px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main-sect {
+    width: 300px;
+    height: 580px;
+  }
+  .table {
+    width: 250px;
+    height: 400px;
+  }
+  
+}
+@media screen and (max-width: 300px) {
+  .main-sect {
+    width: 295px;
+    height:600px;
+  }
+  .table {
+    width: 150px;
+    height: 400px;
+  }
+}
+.table {
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+
+}
+.table tr td {
+  border: 1px solid gray;
+}
+.data {
+  margin: 5px;
+  padding: 5px;
+}
+.output {
+  font-size: 2.5rem;
+  text-align: right;
+}
+.input {
+  font-size: 1.1rem;
+  
+}
